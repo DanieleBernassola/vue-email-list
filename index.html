@@ -9,7 +9,7 @@
     <div id="app">
       <!-- <div v-if="emails.length"> -->
       <ul>
-        <li>{{ emails.response }}</li>
+        <li v-for="email in emails">{{ email }}</li>
       </ul>
       <!-- </div> -->
     </div>
